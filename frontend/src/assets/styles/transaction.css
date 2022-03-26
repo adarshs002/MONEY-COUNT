@@ -112,7 +112,12 @@
     width: 140%;
     font-weight: bold;
 }
-
+@media screen and (max-width:450px) {
+    .add-budget img {
+        margin-left:60px;
+    }
+    
+}
 .add-budget p {
     color: #000000;
     font-size: 20px;

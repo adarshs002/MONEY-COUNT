@@ -40,7 +40,11 @@ body {
     padding: 32px 0;
     align-items: center;
 }
-
+@media screen and (max-width:450px){
+    .second-nav-bar {
+        display: block;
+    }   
+}
 .second-nav-bar-title {
     font-size: 32px;
     font-weight: bold;

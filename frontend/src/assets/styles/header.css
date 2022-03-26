@@ -43,8 +43,13 @@
     font-size: 14px;
     float: right;
 }
+@media screen and (max-width:450px){
+    .sign-out-btn{
+        width: 86%;
+    }
+}
 #sign-out-btn-id{
-    width: 140%;
+    width: 120%;
 }
 #sign-out-btn-id2{
     width: 115%;

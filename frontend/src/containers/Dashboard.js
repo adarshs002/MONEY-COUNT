@@ -128,7 +128,6 @@ export default function Report() {
 	return (
     <Page layout="default">
       <Section slot="breadcrumbs">
-        <Breadcrumbs title="Dashboard" />
         <div>
           {token ? (
             <button
@@ -159,6 +158,7 @@ export default function Report() {
             setOpenModalMenu={setOpenModalMenu}
           />
         </div>
+        <Breadcrumbs title="Dashboard" />
       </Section>
       <Section slot="main">
         <div
